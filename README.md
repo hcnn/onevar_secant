@@ -25,5 +25,3 @@ make deps
 make showcase
 ```
 
-### Explanations
-Further explanations in [README.ipynb](README.ipynb)

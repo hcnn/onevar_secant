@@ -2,7 +2,7 @@
 
 OnevarResult onevar_secant(
     ONEVAR_FUNC_PTR func, const double* params, 
-    bool disp, double maxiter, double tolfun, double maxjump,  
+    bool disp, size_t maxiter, double tolfun, size_t maxjump,  
     double delta, double start0, double start1)
 {
     // declare variables

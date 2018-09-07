@@ -7,12 +7,11 @@ double myparabel(double x, const double* params){
     return params[0] * x * x;
 }
 
-
 int main()
 {
     // optimization settings
-    double maxjump = 15;  // max num iter after a new best solution was found
-    double maxiter = 300; // maximum total number of iterations
+    size_t maxjump = 15;  // max num iter after a new best solution was found
+    size_t maxiter = 300; // maximum total number of iterations
     double tolfun = 1e-8; // better use 1e-12
     bool disp = true;
     double delta = 0.1; // fixed learning rate

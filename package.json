@@ -1,6 +1,6 @@
 {
   "name": "onevar_secant",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "repo": "hcnn/onevar_secant",
   "description": "Secant Method for Single-Variable Optimization",
   "keywords": ["singe-variable optimization", "one-variable optimization", "secant method"],
