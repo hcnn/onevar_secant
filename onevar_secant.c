@@ -1,12 +1,12 @@
 #include "onevar_secant.h"
 
-struct OnevarResult onevar_secant(
+OnevarResult onevar_secant(
     ONEVAR_FUNC_PTR func, const double* params, 
     bool disp, double maxiter, double tolfun, double maxjump,  
     double delta, double start0, double start1)
 {
     // declare variables
-    struct OnevarResult res;
+    OnevarResult res;
     double u, x, xprev, xbest, f, fprev, fbest;
 
     size_t i = 0; //maxiter

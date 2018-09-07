@@ -7,7 +7,7 @@
 #include <stddef.h>
 #include <math.h>
 
-struct OnevarResult onevar_secant(
+OnevarResult onevar_secant(
     ONEVAR_FUNC_PTR func, const double* params, 
     bool disp, double maxiter, double tolfun, double maxjump,  
     double delta, double start0, double start1);

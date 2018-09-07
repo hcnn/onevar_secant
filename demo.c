@@ -23,7 +23,7 @@ int main()
     ONEVAR_FUNC_PTR fun = &myparabel;
     double params[] = {2.0};
 
-    struct OnevarResult res;
+    OnevarResult res;
     res = onevar_secant(fun, params, disp, maxiter, tolfun, maxjump, delta, x0, x1);
 
     print_onevar_result(res);
